@@ -107,7 +107,7 @@ export default function Posts(){
         )}
 
         <div className="relative w-full h-[50px]] flex items-center justify-center gap-4">
-            <p className='absolute left-0'>Visited users: {visits.count}</p>
+            {/* <p className='absolute left-0'>Visited users: {visits.count}</p> */}
 
             <button onClick={() => {
                 if(startPage > 0){
